@@ -4,12 +4,17 @@ This is Test Kitchen Driver for [oVirt](https://ovirt.org)
 
 Currently, this driver supports only linux virtual machine.
 
-## Build & Installation
+## Build
 
     $ git clone https://github.com/uskf/kitchen-ovirt.git
     $ cd kitchen-ovirt
     $ bundle exec rake build
-    $ gem install pkg/kitchen-ovirt-x.y.z.gem
+
+## Installation
+
+Download or build gem package and
+
+    $ gem install /path/to/kitchen-ovirt-x.y.z.gem
 
 ## oVirt Template Requirements
 This driver use oVirt template and cloud-init.
